@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Product Cards</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Our Awesome Products</h1>
+
+    <div id="loader" class="loader-container">
+        <div class="spinner"></div>
+        <p>Loading products...</p>
+    </div>
+
+    <div id="product-grid" class="product-grid hidden">
+        <div class="product-card">
+            <img src="https://via.placeholder.com/150/f0f0f0/333?text=Product+1" alt="Product 1">
+            <div class="card-content">
+                <h2>Stylish Gadget</h2>
+                <p>A must-have for tech enthusiasts.</p>
+                <span class="price">$29.99</span>
+                <button class="buy-button">Add to Cart</button>
+            </div>
+        </div>
+        <div class="product-card">
+            <img src="https://via.placeholder.com/150/e0e0e0/333?text=Product+2" alt="Product 2">
+            <div class="card-content">
+                <h2>Classic Item</h2>
+                <p>Timeless design, unparalleled quality.</p>
+                <span class="price">$49.99</span>
+                <button class="buy-button">Add to Cart</button>
+            </div>
+        </div>
+        <div class="product-card">
+            <img src="https://via.placeholder.com/150/d0d0d0/333?text=Product+3" alt="Product 3">
+            <div class="card-content">
+                <h2>Modern Accessory</h2>
+                <p>Enhance your daily style with this.</p>
+                <span class="price">$19.99</span>
+                <button class="buy-button">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
